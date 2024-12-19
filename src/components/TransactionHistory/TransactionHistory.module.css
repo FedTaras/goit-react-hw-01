@@ -1,9 +1,12 @@
+/* загальні стилі таблиці */
 .table {
   border: 1px solid #eee;
   table-layout: fixed;
   width: 80%;
   margin: 0 auto;
 }
+
+/* заголів'я таблиці */
 .tableHead {
   font-weight: bold;
   padding: 5px;
@@ -11,11 +14,15 @@
   border: 1px solid #dddddd;
   color: #f7f7f7;
 }
+
+/* колонки */
 .tableColumn {
   padding: 5px 10px;
   border: 1px solid #eee;
   text-align: center;
 }
+
+/* колонки парні\не парні */
 .table tbody tr:nth-child(odd) {
   background: #fff;
 }
